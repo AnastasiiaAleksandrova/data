@@ -1,0 +1,56 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+input {
+  border: 1px solid grey;
+  border-radius: 2em;
+  font-size: 1em;
+  padding: 0.5em;
+  outline: none;
+}
+
+.top {
+  /* border: 2px solid rgba(10, 205, 181, 0.37);
+  border-radius: 2em; */
+  padding: 0.5em 0 0.5em 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 5em 20vw 0 20vw;
+}
+
+.days {
+  padding: 0.5em;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 2em;
+  border: none;
+  outline: none;
+  background-color: rgba(10, 205, 181, 0.19);
+}
+
+button:active {
+  box-shadow: inset 0px 0px 5px #333;
+  background-color: rgba(10, 205, 181, 0.37);
+}
+
+button:hover {
+  background-color: rgba(10, 205, 181, 0.37);
+}
+
+.wrap {
+  display: flex;
+  margin: 1em 0 1em 0;
+}
+
+.but {
+  width: 20em;
+}
+
+.res {
+  margin: 1em 20vw 1em 20vw;
+}

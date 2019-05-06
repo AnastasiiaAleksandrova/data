@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Date</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+  <div class="top">
+    <div>
+      <label for="start">Enter start date</label>
+      <input type="date" id="start">
+    </div>
+    <div>
+      <label for="date">Which date you are waiting for?</label>
+      <input type="date" id="date">
+    </div>
+  </div>
+  <br>
+  <div class="res">
+    <div class="wrap">
+      <div class="but">
+        <button id="countDaysLeft">Count how many days left</button>
+      </div>
+      <div id="daysLeft" class="days"></div>
+    </div>
+    <div class="wrap">
+      <div class="but">
+        <button id="countWDaysLeft">Count how many working days left</button>
+      </div>
+      <div id="wDaysLeft" class="days"></div>
+    </div>
+    <div class="wrap">
+      <div class="but">
+        <button id="noHolydays">Count days without holydays</button>
+      </div>
+      <div id="noHoly" class="days"></div>
+    </div>
+    <div class="wrap">
+      <div class="but">
+        <button id="showCounter">Counter from today</button>
+      </div>
+      <div id="counter" class="days"></div>
+    </div>
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
